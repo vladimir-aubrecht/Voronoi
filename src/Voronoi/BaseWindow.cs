@@ -53,7 +53,7 @@ namespace Voronoi
         {
             if (sampler == null)
             {
-                MessageBox.Show("You must load a original picture", "Original picture missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You must load a original picture", "Original picture is missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             
@@ -113,7 +113,7 @@ namespace Voronoi
         {
             if (sampledImageBox.Image == null)
             {
-                MessageBox.Show("Before save, you must generate sampled picture", "Sampled picture missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Before save, you must generate sampled picture", "Sampled picture is missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -159,7 +159,7 @@ namespace Voronoi
         {
             if (sampler == null)
             {
-                MessageBox.Show("You must load a original picture", "Original picture missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You must load a original picture", "Original picture is missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             
@@ -229,7 +229,7 @@ namespace Voronoi
         {
             if (voronoiPictureBox.Image == null)
             {
-                MessageBox.Show("Before save, you must generate Voronoi picture", "Voronoi picture missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Before save, you must generate Voronoi picture", "Voronoi picture is missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
